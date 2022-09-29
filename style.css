@@ -1,0 +1,67 @@
+
+ div{
+    grid-column: auto;
+    color: white;
+ }
+h1{
+   text-align: center; 
+   color: white;
+    
+}
+body {
+    min-height: 100vh;
+   background-color: #3c3c3c; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    
+  }
+  
+  footer{
+    background-color: white;
+    height: auto
+  }
+  
+  .grid1{ 
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    
+    
+    column-gap: 20px;
+  }
+ 
+  header{
+    background-color: black;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #B9B9B9;
+  }
+  .afooter{
+    color: black
+  }
+  .afooter:hover{
+    color: #5a5a5a;
+  }
+  .teamgrid{
+    display: grid; 
+    grid-template-columns: 20% 20% 20%;
+    column-gap: 0;
+    margin-left: 5%;
+
+  }
+  h4{
+    margin-left: 5%;
+    color: white;
+    font-size: 32px;
+  }
+  .boxgrid{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    margin-left: 5%;
+    color: whitesmoke;
+  }
